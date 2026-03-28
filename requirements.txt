@@ -1,27 +1,19 @@
 # --- FRONTEND & API ---
-# User interface, web server framework and API communication
-# Interface de usuário, framework de servidor web e comunicação de API
-streamlit==1.32.0
-flask==3.0.2
-flask-cors==4.0.0
-requests==2.31.0
-python-dotenv==1.0.1
+streamlit
+flask
+flask-cors
+requests
+python-dotenv
 
 # --- DATA & AI ---
-# Data manipulation, spreadsheet reading and artificial intelligence
-# Manipulação de dados, leitura de planilhas e inteligência artificial
-pandas==2.2.1
-openpyxl==3.1.2
-openai==1.13.3
+pandas
+openpyxl
+openai
 
 # --- DATABASE & SERVER ---
-# Database connection and production server for deployment
-# Conexão com banco de dados e servidor de produção para implantação
-pymongo==4.6.2
-dnspython==2.6.1
-gunicorn==21.2.0
+pymongo[srv]
+dnspython
+gunicorn
 
 # --- UTILS ---
-# Word document generation for the final reports
-# Geração de documentos Word para os relatórios finais
-python-docx==1.1.0
+python-docx
